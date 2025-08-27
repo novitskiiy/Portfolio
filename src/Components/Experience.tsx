@@ -43,11 +43,10 @@ const Experience = () => {
     })
     return <div className="px-16 mx-20 md-mx:px-6 sm-mx:px-2 lg-mx:mx-0 my-10 mb-28 font-mono" id="Experience">
         <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl  mb-10 font-bold text-center text-white"><span className="text-primaryColor">04.&nbsp;</span>Experience</h1>
-        <Timeline color="#64FFDA" active={5} bulletSize={dot} lineWidth={2}>
+        <Timeline color="#64FFDA" active={1} bulletSize={dot} lineWidth={2}>
             {
                 TimelineItem(ExperienceInfo)
             }
-            <Timeline.Item bullet={<IconBriefcaseFilled className="!text-bgColor" size={size} />} ></Timeline.Item>
         </Timeline>
     </div>
 }

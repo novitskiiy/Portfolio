@@ -3,8 +3,7 @@ import FloatingInput from "./FloatingInput";
 import { Button, useMatches } from "@mantine/core";
 import { IconArrowRight, IconTopologyStar3 } from "@tabler/icons-react";
 import { validateForm } from "./Validation";
-import { collection, addDoc } from "firebase/firestore"; 
-import { db } from "../Firebase";
+import emailjs from '@emailjs/browser';
 import toast from "react-hot-toast";
 
 const Contact = () => {
@@ -34,12 +33,33 @@ const Contact = () => {
         }
         setFormError(newFormError);
         if(valid){
-            setFormData(form);
-            toast.success('Submitted Successfully!', {duration:4000});
-            await addDoc(collection(db, "portfolio"), formData);
+            try {
+                // EmailJS configuration
+                const templateParams = {
+                    from_name: formData.name,
+                    from_email: formData.email,
+                    from_phone: formData.phone,
+                    message: formData.message,
+                    to_name: "Bogdan Veremienko"
+                };
+
+                // Send email using EmailJS
+                await emailjs.send(
+                    'service_portfolio', // Replace with your EmailJS service ID
+                    'template_4qgb6p6', // Replace with your EmailJS template ID
+                    templateParams,
+                    'cE63GvZdd-GqLDG59' // Replace with your EmailJS public key
+                );
+
+                setFormData(form);
+                toast.success('Message sent successfully!', {duration:4000});
+            } catch (error) {
+                console.error('Error sending email:', error);
+                toast.error('Failed to send message. Please try again.', {duration:4000});
+            }
         }
         else{
-            toast.error('Some error occurred!', {duration:4000})
+            toast.error('Please fill all fields correctly!', {duration:4000})
         }
     }
 

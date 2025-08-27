@@ -9,79 +9,50 @@ const Info = {
 
 const ProjectInfo = [
     {
-        title: "Ekart E-comm App",
-        desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
-        image: "/Portfolio/Ekart.png",
+        title: "JobPortal",
+        desc: "JobPortal is a comprehensive full-stack job board platform that bridges the gap between job seekers and employers through an intuitive, feature-rich interface built with Spring Boot backend and React frontend. The application's core utility lies in streamlining the entire recruitment process, offering job seekers an easy way to discover and apply for opportunities while providing employers with powerful tools to post listings and manage applications efficiently. One of its most innovative features is the AI-powered job description generator.",
+        image: "/Portfolio/JobPortal.png",
         live: true,
-        technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
-        link: "https://code-mars.github.io/Ekart/",
-        github: "https://github.com/Code-Mars/Ekart/"
+        technologies: ["Spring Boot", "MongoDB", "Kafka", "Redis", "Docker", "Spring AI"],
+        link: "http://www.jobportal.blog",
+        github: "https://github.com/novitskiiy/jobportal"
     },
     {
-        title: "Facebook Clone",
-        desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, posting, and commenting. The front end is built with React, TailwinCSS, Tabler-Icons, Mantine and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, post updates, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "/Portfolio/Facebook.png",
-        live: false,
-        technologies: ["React", "Springboot", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
-        link: "https://github.com/Code-Mars/Facebook-Clone",
-        github: "https://github.com/Code-Mars/Facebook-Clone"
-    },
-    {
-        title: "Spotify Clone",
-        desc: "Spotify Clone is a full-stack web application that replicates the core features of Spotify, including user authentication, music playback, and playlist creation. The front end is built with React, TailwindCSS, Heroicons, and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, search for songs, and create playlists. The app features real-time updates, so users can see new songs as they are added. Spotify Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "/Portfolio/Spotify.png",
-        live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: "https://github.com/Code-Mars/Spotify-Clone",
-        github: "https://github.com/Code-Mars/Spotify-Clone"
-    },
-    {
-        title: "Travel Tracker",
-        desc: "Travel Tracker is a full-stack web application that allows users to track their travel experiences and share them with others. The front end is built with React, Bootstrap, while the back end uses Node.js, Express, and PostgresSQL. Users can create an account, log in, add new trips, and view their past trips on a map. The app features a clean, modern design with interactive maps and a user-friendly interface. Travel Tracker combines functionality with style, making it easy and enjoyable to record and share travel memories.",
-        image: "/Portfolio/Travel.png",
-        live: false,
-        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://github.com/Code-Mars/Travel-Tracker",
-        github: "https://github.com/Code-Mars/Travel-Tracker"
-    },
-    {
-        title: "Instagram Clone",
-        desc: "Instagram Clone is a full-stack web application that replicates the core features of Instagram, including user authentication, image uploading, and commenting. The front end is built with React, TailwindCSS, and Heroicons, while the back end uses Firebase for user authentication and image storage. Users can create an account, log in, upload images, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Instagram Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-        image: "/Portfolio/Instagram.png",
-        live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
-        link: "https://github.com/Code-Mars/Instagram-Clone",
-        github: "https://github.com/Code-Mars/Instagram-Clone"
-    },
-    {
-        title: "CodeX Code Editor",
-        desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, offering a seamless coding experience across all devices. It features syntax highlighting for popular programming languages, including HTML, CSS, JavaScript, Python, and Java. Users can create, edit, and save code files, with the option to download them as text files. CodeX combines robust functionality with a sleek, intuitive design, making coding effortless and enjoyable.",
-        image: "/Portfolio/CodeX.png",
-        live: false,
-        technologies: ["React", "Tailwind", "Ace Editor"],
-        link: "https://github.com/Code-Mars/CodeX",
-        github: "https://github.com/Code-Mars/CodeX"
+        title: "BookHub",
+        desc: "BookHub is a modern, RESTful API for an online bookstore built with Spring Boot. It provides comprehensive functionality for managing books, users, orders, and shopping carts with secure authentication and role-based access control.",
+        image: "/Portfolio/BookHub.png",
+        live: true,
+        technologies: ["Spring Framework", "MySQL", "JWT", "JPA", "Liquibase"],
+        link: "https://obminbook.netlify.app",
+        github: "https://github.com/novitskiiy/BookHub"
     }
 ]
 
 
 const SkillInfo = [
     {
-        title: "Frontend",
-        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"
-        ]
-    },
-    {
         title: "Backend",
-        skills: ["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase", "PostgresSQL"]
+        skills: ["Java", "Spring Boot", "Spring Data JPA", "Spring Security", "Spring Cloud", "Hibernate", "RESTful APIs"]
     },
     {
-        title: "Languages",
-        skills: ["C", "C++", "Java", "JavaScript", "TypeScript"]
+        title: "Databases & Caching",
+        skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Liquibase"]
     },
     {
-        title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
+        title: "DevOps & Cloud",
+        skills: ["Docker", "Kubernetes", "AWS", "Jenkins", "GitLab CI-CD", "Maven", "Gradle", "Nginx"]
+    },
+    {
+        title: "Testing & Messaging",
+        skills: ["JUnit 5", "Mockito", "SonarQube", "Apache Kafka", "RabbitMQ"]
+    },
+    {
+        title: "Frontend",
+        skills: ["React JS", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS"]
+    },
+    {
+        title: "Tools & Others",
+        skills: ["Git", "IntelliJ IDEA", "VS Code", "Postman", "Swagger"]
     }
 ]
 const socialLinks = [
@@ -93,56 +64,48 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
-        role: "Specialist Programmer",
-        company: "Infosys",
-        date: "Oct 2023 - Present",
-        desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-        skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
-    },
-    {
-        role: "System Engineer",
-        company: "Infosys",
-        date: "Nov 2022 - Sep 2023",
-        desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
-        skills: ["Java", "MySQL", "Hibernate", "Selenium", "Jenkins", "JIRA", "Automation Testing"]
+        role: "Intern Java",
+        company: "SoftServe",
+        date: "Dec 2023 - Sep 2024",
+        desc: "During my internship at SoftServe, I contributed to the development of the GreenCity project — a social platform aimed at promoting eco-friendly habits. Working in an Agile team of 8, I actively participated in sprint planning, daily stand-ups, and code reviews, which gave me practical experience in collaborative software development and problem-solving. On the technical side, I gained strong hands-on experience with Java and Spring Framework (Spring Boot, Spring Data JPA), developing and maintaining RESTful APIs. I worked with PostgreSQL for database design and management, using Liquibase for version control of database changes. To ensure high code quality, I applied Checkstyle and SonarQube for continuous inspection and refactoring. I also wrote unit tests with JUnit and Mockito, which improved the stability and reliability of the codebase. This experience not only strengthened my technical skills but also taught me the importance of writing clean, maintainable, and testable code, following SOLID principles and best practices. I developed a solid understanding of version control with Git and gained confidence in working within a professional development workflow.",
+        skills: ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "JUnit", "RESTful APIs", "PostgreSQL", "MySQL", "Git", "Maven", "Liquibase", "OOP", "SOLID principles", "Agile"]
     }
 ]
 const Slugs = [
-    "typescript",
-    "spring",
-    "javascript",
-    "dart",
     "java",
+    "spring",
+    "springboot",
+    "hibernate",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "redis",
+    "elasticsearch",
+    "docker",
+    "kubernetes",
+    "amazonaws",
+    "jenkins",
+    "gitlab",
+    "maven",
+    "gradle",
+    "nginx",
+    "apachekafka",
+    "rabbitmq",
+    "junit",
+    "mockito",
+    "sonarqube",
     "react",
-    "angular",
-    "flutter",
-    "android",
+    "typescript",
+    "javascript",
     "html5",
     "css3",
-    "springboot",
-    "mongodb",
-    "selenium",
-    "nodedotjs",
-    "express",
-    "nextdotjs",
-    "prisma",
-    "mysql",
-    "amazonaws",
-    "postgresql",
-    "firebase",
-    "nginx",
-    "vercel",
-    "testinglibrary",
-    "jest",
-    "cypress",
-    "docker",
+    "tailwindcss",
     "git",
-    "jira",
-    "github",
-    "gitlab",
+    "intellijidea",
     "visualstudiocode",
-    "androidstudio",
-    "sonarqube",
-    "figma",
+    "postman",
+    "swagger",
+    "jira",
+    "confluence"
 ];
 export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo, Slugs };
