@@ -65,13 +65,6 @@ npm run build
 ```bash
 npm run deploy
 ```
-
-## 📧 Contact
-
-- **Email**: [Your email]
-- **LinkedIn**: [Your LinkedIn]
-- **GitHub**: [Your GitHub]
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
