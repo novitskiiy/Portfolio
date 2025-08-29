@@ -66,7 +66,7 @@ const ExperienceInfo = [
     {
         role: "Intern Java",
         company: "SoftServe",
-        date: "Dec 2023 - Sep 2024",
+        date: "Feb 2024 - Apr 2025",
         desc: "During my internship at SoftServe, I contributed to the development of the GreenCity project — a social platform aimed at promoting eco-friendly habits. Working in an Agile team of 8, I actively participated in sprint planning, daily stand-ups, and code reviews, which gave me practical experience in collaborative software development and problem-solving. On the technical side, I gained strong hands-on experience with Java and Spring Framework (Spring Boot, Spring Data JPA), developing and maintaining RESTful APIs. I worked with PostgreSQL for database design and management, using Liquibase for version control of database changes. To ensure high code quality, I applied Checkstyle and SonarQube for continuous inspection and refactoring. I also wrote unit tests with JUnit and Mockito, which improved the stability and reliability of the codebase. This experience not only strengthened my technical skills but also taught me the importance of writing clean, maintainable, and testable code, following SOLID principles and best practices. I developed a solid understanding of version control with Git and gained confidence in working within a professional development workflow.",
         skills: ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "JUnit", "RESTful APIs", "PostgreSQL", "MySQL", "Git", "Maven", "Liquibase", "OOP", "SOLID principles", "Agile"]
     }
