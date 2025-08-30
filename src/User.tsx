@@ -14,7 +14,7 @@ const ProjectInfo = [
         image: "/Portfolio/JobPortal.png",
         live: true,
         technologies: ["Spring Boot", "MongoDB", "Kafka", "Redis", "Docker", "Spring AI"],
-        link: "http://www.jobportal.blog",
+        link: "https://www.youtube.com/watch?v=QFpzLxw5aZo",
         github: "https://github.com/novitskiiy/jobportal"
     },
     {

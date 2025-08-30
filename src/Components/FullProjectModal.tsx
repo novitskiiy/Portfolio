@@ -29,7 +29,7 @@ const FullProjectModal = (props: any) => {
                     </Button>
                     </a>
                     <a href={props.link} target="_blank" className="!w-[48%] "><Button size={btn} color="#64FFDA" className="!text-bgColor" fullWidth radius="md">
-                        View Live App
+                        Video review
                     </Button></a>
                 </Group>
             </Modal.Body>
